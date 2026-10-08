@@ -1,0 +1,6 @@
+/* Global typography and browser defaults for the TWOPNM experience. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root { --sans: 'DM Sans', sans-serif; --display: 'Space Grotesk', sans-serif; font-family: var(--sans); font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+body { margin: 0; min-width: 320px; }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 3px solid #f2c94c; outline-offset: 4px; }
